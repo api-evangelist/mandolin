@@ -1,8 +1,24 @@
 aid: mandolin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mandolin.png
 name: Mandolin
-description: 'Mandolin is a company surfaced as a portfolio company of greylock, sv-angel and added to
-  the API Evangelist network as a stub for enrichment. Sector: applications. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Mandolin (operating as Coral Automation, Inc.) is a San Francisco-based AI automation
+  platform for specialty pharmaceutical workflows, serving infusion centers and specialty pharmacies.
+  Its AI agents handle the complete back-office lifecycle — patient intake, benefits verification, prior
+  authorization, claims, and revenue cycle management — by navigating existing systems, reading faxes,
+  and reasoning over data rather than through developer integrations. The company explicitly markets a
+  no-API, no-integration approach ("Every step, fully automated"), citing outcomes such as 24x faster
+  document processing and eliminated prescription backlogs. Backed by Greylock and SV Angel.'
 url: https://raw.githubusercontent.com/api-evangelist/mandolin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Applications
+- Healthcare
+- Pharmaceuticals
+- Automation
+- Artificial Intelligence
+- Specialty Pharmacy
+- Revenue Cycle Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mandolin-domain-security.yml
 - type: Website
   url: https://www.mandolin.com/
+- type: Blog
+  url: https://www.mandolin.com/blog
+- type: PrivacyPolicy
+  url: https://www.mandolin.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
