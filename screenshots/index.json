@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "mandolin",
+    "captured_at": "2026-10-11T190935",
+    "source_url": "https://www.mandolin.com/",
+    "source_type": "Website",
+    "file": "mandolin-2026-10-11T190935.png",
+    "bytes": 847841,
+    "capture": "playwright-local"
+  }
+]
